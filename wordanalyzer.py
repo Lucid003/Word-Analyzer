@@ -39,7 +39,7 @@ for sentence in listed:
         #temporarily using dictionary to store words and word counts
         wordDict.setdefault(word, 1)
         wordDict[word] += 1
-        0
+        
         if word not in wordSet:
             wordSet.add(word)
             word = Word(word)
